@@ -20,11 +20,10 @@ namespace DataDriven_GoalDriven_Search
         {
             while (true)
             {
-
-                Console.Write("Which algorithm will be execute? 1: Data Driven, 2: GoalDrive - ");
+                Console.Write("Which algorithm will be execute? 1: Data Driven, 2: GoalDriven - ");
                 var algorithm = Console.ReadLine();
 
-                Dictionary<string, string> ProductinSets = new Dictionary<string, string>();
+                Dictionary<string, string> ProductinSets = new ();
                 List<string> workingMemory = new();
 
                 Console.Write("How many productions are set? ");
